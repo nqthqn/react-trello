@@ -153,7 +153,7 @@ Lane.propTypes = {
   style: PropTypes.object,
   titleStyle: PropTypes.object,
   cards: PropTypes.array,
-  label: PropTypes.string,
+  label: PropTypes.node,
   onLaneScroll: PropTypes.func,
   handleDragStart: PropTypes.func,
   handleDragEnd: PropTypes.func
